@@ -22,7 +22,7 @@ public class Solution {
 		double samples = scan.nextDouble();
 		double mean = scan.nextDouble();
 		double sd = scan.nextDouble();
-		double interval = scan.nextDouble();
+		scan.nextDouble();
 		double z = scan.nextDouble();
 		double sd_sample = sd / Math.sqrt(samples);
 		System.out.printf("%.2f\n", mean - sd_sample * z);
